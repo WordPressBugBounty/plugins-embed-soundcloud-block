@@ -1,0 +1,240 @@
+# Copyright (C) 2024 bPlugins
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Embed SoundCloud 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sound-cloud-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-23T04:23:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: sound-cloud\n"
+
+#. Plugin Name of the plugin
+#: D:\Ampps\www\wordpress\wp-content\plugins\sound-cloud-block\index.php
+msgid "Embed SoundCloud"
+msgstr ""
+
+#. Description of the plugin
+#: D:\Ampps\www\wordpress\wp-content\plugins\sound-cloud-block\index.php
+msgid "Embed your soundCloud tracks with a beautiful Gutenberg block ."
+msgstr ""
+
+#. Author of the plugin
+#: D:\Ampps\www\wordpress\wp-content\plugins\sound-cloud-block\index.php
+msgid "bPlugins"
+msgstr ""
+
+#. Author URI of the plugin
+#: D:\Ampps\www\wordpress\wp-content\plugins\sound-cloud-block\index.php
+msgid "http://bplugins.com"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1458
+msgid "General"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1463
+msgid "Style"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1469
+msgid "red"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1470
+msgid "white"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1471
+msgid "blue"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4053
+msgid "Sound Cloud Settings"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4057
+msgid "Url"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4057
+msgid "top"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4057
+msgid "Enter Track Url"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4060
+msgid "Start Track"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4068
+msgid "Width"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4075
+msgid "Height"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4085
+msgid "Options"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4086
+msgid "Enable Auto Play "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4088
+msgid "Single Active "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4091
+msgid "Visual Design"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4093
+msgid "Teaser "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4097
+msgid "Elements"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4098
+msgid "Show Buying "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4101
+msgid "Show Download "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4104
+msgid "Comments "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4107
+msgid "Show Artwork "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4109
+msgid "Show Play Count "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4111
+msgid "Show User "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4114
+msgid "Hide Related "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4116
+msgid "Show Sharing "
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4121
+msgid "Sound Cloud Style"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4123
+msgid "Color"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4125
+msgid "Border"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4127
+msgid "Border Radius"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4131
+msgid "Shadow:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4140
+msgid "Sound Cloud in left"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4141
+msgid "Sound Cloud in center"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:4142
+msgid "Sound Cloud in right"
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "SoundCloud Block"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "Embed SoundCloud Tracks"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "soundCloud"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "block"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "Gutenberg"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid " music player"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid " mp3 player"
+msgstr ""

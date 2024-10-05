@@ -1,0 +1,10 @@
+{
+  "prefix": "scbpro",
+  "permalinks": {
+    "scbpro": ""
+  },
+  "features": {
+    "license": false,
+    "optIn": true
+  }
+}
