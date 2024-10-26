@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Embed SoundCloud 1.0.5\n"
+"Project-Id-Version: Embed SoundCloud 1.0.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sound-cloud-block\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-06-23T04:23:51+00:00\n"
+"POT-Creation-Date: 2024-10-26T05:03:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: sound-cloud\n"
@@ -35,172 +35,172 @@ msgid "http://bplugins.com"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:1458
+#: dist/editor.js:1944
 msgid "General"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:1463
+#: dist/editor.js:1949
 msgid "Style"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:1469
+#: dist/editor.js:1955
 msgid "red"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:1470
+#: dist/editor.js:1956
 msgid "white"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:1471
+#: dist/editor.js:1957
 msgid "blue"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4053
+#: dist/editor.js:6053
 msgid "Sound Cloud Settings"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4057
+#: dist/editor.js:6057
 msgid "Url"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4057
+#: dist/editor.js:6057
 msgid "top"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4057
+#: dist/editor.js:6057
 msgid "Enter Track Url"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4060
+#: dist/editor.js:6060
 msgid "Start Track"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4068
+#: dist/editor.js:6068
 msgid "Width"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4075
+#: dist/editor.js:6075
 msgid "Height"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4085
+#: dist/editor.js:6085
 msgid "Options"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4086
+#: dist/editor.js:6086
 msgid "Enable Auto Play "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4088
+#: dist/editor.js:6088
 msgid "Single Active "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4091
+#: dist/editor.js:6091
 msgid "Visual Design"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4093
+#: dist/editor.js:6093
 msgid "Teaser "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4097
+#: dist/editor.js:6097
 msgid "Elements"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4098
+#: dist/editor.js:6098
 msgid "Show Buying "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4101
+#: dist/editor.js:6101
 msgid "Show Download "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4104
+#: dist/editor.js:6104
 msgid "Comments "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4107
+#: dist/editor.js:6107
 msgid "Show Artwork "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4109
+#: dist/editor.js:6109
 msgid "Show Play Count "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4111
+#: dist/editor.js:6111
 msgid "Show User "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4114
+#: dist/editor.js:6114
 msgid "Hide Related "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4116
+#: dist/editor.js:6116
 msgid "Show Sharing "
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4121
+#: dist/editor.js:6121
 msgid "Sound Cloud Style"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4123
+#: dist/editor.js:6123
 msgid "Color"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4125
+#: dist/editor.js:6125
 msgid "Border"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4127
+#: dist/editor.js:6127
 msgid "Border Radius"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4131
+#: dist/editor.js:6131
 msgid "Shadow:"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4140
+#: dist/editor.js:6140
 msgid "Sound Cloud in left"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4141
+#: dist/editor.js:6141
 msgid "Sound Cloud in center"
 msgstr ""
 
 #: dist/editor.js:1
-#: dist/editor.js:4142
+#: dist/editor.js:6142
 msgid "Sound Cloud in right"
 msgstr ""
 
