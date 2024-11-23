@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Embed SoundCloud
+ * Plugin Name: Player For SoundCloud
  * Description: Embed your soundCloud tracks with a beautiful Gutenberg block .
- * Version: 1.0.6
+ * Version: 1.0.7
  * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
@@ -14,7 +14,7 @@
 if (!defined('ABSPATH')) {exit;}
 
 // Constant
-define( 'SCB_PLUGIN_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.6' );
+define( 'SCB_PLUGIN_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.7' );
 define( 'SCB_ASSETS_DIR', plugin_dir_url(__FILE__) . 'assets/' );
 
 if (!function_exists('scb_init')) {
