@@ -60,6 +60,7 @@ class ShortCode {
 		$defaults['date'] = 'Date';
 		return $defaults;
 	}
+    
 
 	function manageBSBPostsCustomColumns( $column_name, $post_ID ) {
 		if ( $column_name == 'shortcode' ) {

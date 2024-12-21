@@ -95,10 +95,10 @@ class SCB_SoundCloud {
 
         wp_register_style('scb-sound-cloud-style', plugins_url('dist/style.css', __FILE__), [], SCB_PLUGIN_VERSION); // Frontend Style
 
-        if ($this->has_reusable_block('scb/sound-cloud') || has_block('scb/sound-cloud', get_the_ID())) {
+        // if ($this->has_reusable_block('scb/sound-cloud') || has_block('scb/sound-cloud', get_the_ID())) {
             wp_enqueue_style('scb-sound-cloud-style');
             wp_enqueue_script('scb-sound-cloud-script');
-        }
+        // }
     }
 
     // Short code style
@@ -126,8 +126,12 @@ class SCB_SoundCloud {
     {
         extract($attributes);
 
+
         $className = $className ?? '';
         $scbBlockClassName = 'wp-block-scb-sound-cloud ' . $className . ' align' . $align;
+
+        wp_enqueue_style('scb-sound-cloud-style');
+        wp_enqueue_script('scb-sound-cloud-script');
 
         ob_start();?>
 		<div class='<?php echo esc_attr($scbBlockClassName); ?>' id='scbSoundCloud-<?php echo esc_attr($cId) ?>' data-attributes='<?php echo esc_attr(wp_json_encode($attributes)); ?>'></div>
