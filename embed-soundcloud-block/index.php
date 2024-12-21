@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Player For SoundCloud
  * Description: Embed your soundCloud tracks with a beautiful Gutenberg block .
- * Version: 1.0.7
+ * Version: 1.0.8
  * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
@@ -12,10 +12,6 @@
 
 // ABS PATH
 if (!defined('ABSPATH')) {exit;}
-
-// Constant
-define( 'SCB_PLUGIN_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.7' );
-define( 'SCB_ASSETS_DIR', plugin_dir_url(__FILE__) . 'assets/' );
 
 if (!function_exists('scb_init')) {
     function scb_init()
@@ -31,12 +27,40 @@ if (!function_exists('scb_init')) {
 }
 
 // SoundCloud Directory
-class SCBSoundCloud
-{
-    public function __construct()
-    {
+class SCB_SoundCloud {
+
+    private static $instance;
+
+    private function __construct() {
+        $this->define_constants();
+        $this->load_classes();
+
         add_action('enqueue_block_assets', [$this, 'enqueueBlockAssets']);
         add_action('init', [$this, 'onInit']);
+        add_action('admin_enqueue_scripts', [$this, 'admin_enqueue_scripts']);
+    }
+
+    public static function get_instance() {
+        if(self::$instance) {
+            return self::$instance;
+        }
+
+        self::$instance = new self();
+        return self::$instance;
+    }
+
+
+    public function define_constants() {
+        // Constant
+        define( 'SCB_PLUGIN_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.8' );
+        define( 'SCB_ASSETS_DIR', plugin_dir_url(__FILE__) . 'assets/' );
+        define( 'SCB_PLUGIN_PATH', plugin_dir_path(__FILE__));
+
+    }
+
+    public function load_classes() {
+        require_once SCB_PLUGIN_PATH . 'includes/post-type/shortcode.php';
+        new SCB_SOUNDCLOUD\ShortCode();
     }
 
     public function has_reusable_block($block_name)
@@ -77,6 +101,15 @@ class SCBSoundCloud
         }
     }
 
+    // Short code style
+    public function admin_enqueue_scripts($hook)
+    {
+        if ('edit.php' === $hook || 'post.php' === $hook) {
+            wp_enqueue_style('scbAdmin', SCB_ASSETS_DIR . 'css/admin.css', [], SCB_PLUGIN_VERSION);
+            wp_enqueue_script('scbAdmin', SCB_ASSETS_DIR . 'js/admin.js', ['wp-i18n'], SCB_PLUGIN_VERSION, true);
+        }
+    }
+
     public function onInit()
     {
         wp_register_style('scb-sound-cloud-editor-style', plugins_url('dist/editor.css', __FILE__), ['wp-edit-blocks', 'scb-sound-cloud-style'], SCB_PLUGIN_VERSION); // Backend Style
@@ -100,6 +133,7 @@ class SCBSoundCloud
 		<div class='<?php echo esc_attr($scbBlockClassName); ?>' id='scbSoundCloud-<?php echo esc_attr($cId) ?>' data-attributes='<?php echo esc_attr(wp_json_encode($attributes)); ?>'></div>
 
 		<?php return ob_get_clean();
-    } // Render
+    } // Render    
+
 }
-new SCBSoundCloud();
+SCB_SoundCloud::get_instance();
