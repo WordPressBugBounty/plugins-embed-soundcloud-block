@@ -3,8 +3,8 @@ Contributors: bplugins, abuhayat, btechnologies
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: soundCloud, block, Gutenberg soundCloud, music player, mp3 player
 Requires at least: 6.5+
-Tested up to: 6.7.1
-Stable tag: 1.0.8
+Tested up to: 6.7.2
+Stable tag: 1.0.9
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -114,6 +114,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Changelog ==
 
+= 1.0.9 - 19 Feb, 2025 =
+* ShortCode problem fixed;
+
 = 1.0.8 - 21 Dec, 2024 =
 * ShortCode support
 
@@ -142,6 +145,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.9 - 19 Feb, 2025 =
+* ShortCode problem fixed;
 
 = 1.0.8 - 21 Dec, 2024 =
 * ShortCode support

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Player For SoundCloud
  * Description: Embed your soundCloud tracks with a beautiful Gutenberg block .
- * Version: 1.0.8
+ * Version: 1.0.9
  * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
@@ -52,7 +52,7 @@ class SCB_SoundCloud {
 
     public function define_constants() {
         // Constant
-        define( 'SCB_PLUGIN_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.8' );
+        define( 'SCB_PLUGIN_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.9' );
         define( 'SCB_ASSETS_DIR', plugin_dir_url(__FILE__) . 'assets/' );
         define( 'SCB_PLUGIN_PATH', plugin_dir_path(__FILE__));
 
@@ -89,6 +89,7 @@ class SCB_SoundCloud {
 
     public function enqueueBlockAssets()
     {
+        
         wp_register_script('soundCloud', SCB_ASSETS_DIR . 'js/soundCloud.api.js', [], SCB_PLUGIN_VERSION);
 
         wp_register_script('scb-sound-cloud-script', plugins_url('dist/script.js', __FILE__), ['react', 'react-dom', 'soundCloud'], SCB_PLUGIN_VERSION);
