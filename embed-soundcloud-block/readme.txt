@@ -3,7 +3,7 @@ Contributors: bplugins, abuhayat, btechnologies
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: soundCloud, block, Gutenberg soundCloud, music player, mp3 player
 Requires at least: 6.5+ 
-Tested up to: 6.8.1 
+Tested up to: 6.8.1  
 Stable tag: 1.0.10
 Requires PHP: 7.1 
 License: GPLv3 or later
