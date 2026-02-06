@@ -1,0 +1,128 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "scb/sound-cloud",
+  "title": "SoundCloud Block",
+  "description": "Embed SoundCloud Tracks",
+  "category": "widgets",
+  "keywords": [
+    "soundCloud",
+    "block",
+    "Gutenberg",
+    "soundCloud",
+    "music player",
+    "mp3 player"
+  ],
+  "textdomain": "sound-cloud",
+  "attributes": {
+    "alignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "cId": {
+      "type": "string",
+      "default": ""
+    },
+    "tracks": {
+      "type": "array",
+      "default": [
+        {
+          "url": "https://soundcloud.com/alamincmt7418/birds-squawk",
+          "startTrack": 0
+        }
+      ]
+    },
+    "options": {
+      "type": "object",
+      "default": {
+        "isAutoPlay": true,
+        "color": "#f50",
+        "isBuying": true,
+        "isSharing": true,
+        "isDownload": true,
+        "isArtWork": true,
+        "isPlayCount": true,
+        "isUser": true,
+        "isSingleActive": true,
+        "isComments": true,
+        "isVisual": false,
+        "isTeaser": false,
+        "isHideRelated": false
+      }
+    },
+    "iframeStyle": {
+      "type": "object",
+      "default": {
+        "width": "100%",
+        "height": "170px"
+      }
+    },
+    "frameBorder": {
+      "type": "object",
+      "default": {
+        "color": "#000",
+        "style": "solid",
+        "width": "1px"
+      }
+    },
+    "frameBRadius": {
+      "type": "object",
+      "default": {
+        "top": "3px",
+        "bottom": "3px",
+        "left": "3px",
+        "right": "3px"
+      }
+    },
+    "frameBoxShadow": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "preview": true,
+      "columns": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      }
+    }
+  },
+  "editorScript": [
+    "file:./index.js",
+    "wp-api",
+    "wp-util",
+    "wp-edit-blocks",
+    "soundCloud",
+    "react",
+    "react-dom",
+    "jquery"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": [
+    "file:./view.css"
+  ],
+  "render": "file:./render.php",
+  "viewScript": [
+    "file:./view.js",
+    "jquery",
+    "wp-util",
+    "wp-api",
+    "react",
+    "react-dom",
+    "soundCloud",
+    "jquery"
+  ]
+}

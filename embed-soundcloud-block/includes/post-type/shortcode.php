@@ -42,6 +42,7 @@ class ShortCode {
 			'supports'				=> [ 'title', 'editor' ],
 			'template'				=> [ ['scb/sound-cloud'] ],
 			'template_lock'			=> 'all',
+			'show_in_menu'          => 'embed-soundcloud-block'
 		)); // Register Post Type
 	}
 

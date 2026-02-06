@@ -1,10 +1,10 @@
-=== Player For SoundCloud ===
+=== Player for SoundCloud – Embed and Play Audio Tracks ===
 Contributors: bplugins, abuhayat, btechnologies
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: soundCloud, block, Gutenberg soundCloud, music player, mp3 player
-Requires at least: 6.5+ 
-Tested up to: 6.8.1  
-Stable tag: 1.0.10
+Requires at least: 6.5+
+Tested up to: 6.9 
+Stable tag: 1.0.11
 Requires PHP: 7.1 
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -26,6 +26,7 @@ In conclusion, the SoundCloud Block plugin is an excellent choice for anyone loo
 
 
 = Features =
+- Shortcode Support: Place sliders anywhere on your site using shortcodes.
 - **Track**: Play SoundCloud single track as well as playlist.
 - **Options**: Change SoundCloud options such as AutoPlay, Single active, Visual Design, Teaser etc.
 - **Elements**: Show/Hide SoundCloud elements such as Buying button, Download Button, Comments, Artwork, PlayCount, user, related sharing button etc.
@@ -103,6 +104,10 @@ You can use unlimited times as you want.
 
 You can post your questions on the [support forum here](https://wordpress.org/support/plugin/soundCloud/)
 
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the SoundCloud block - Fully Customizable SoundCloud Player plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/9e5fbc25-3898-4b99-aee7-2005335a9b46). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 
 == Screenshots ==
 
@@ -113,6 +118,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 5. SoundCloud Playlists Customize
 
 == Changelog ==
+
+= 1.0.11 - 26 Nov, 2025 =
+* Modern Dashboard Added;
 
 = 1.0.10 - 25 April, 2025 =
 * Compatible with WordPress 6.8
@@ -148,6 +156,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.0.11 - 26 Nov, 2025 =
+* Modern Dashboard Added;
 
 = 1.0.10 - 25 April, 2025 =
 * Compatible with WordPress 6.8;
