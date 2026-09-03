@@ -1,57 +1,61 @@
-=== Player for SoundCloud – Embed and Play Audio Tracks ===
-Contributors: bplugins, abuhayat, btechnologies
-Donate link: https://www.buymeacoffee.com/abuhayat
-Tags: soundCloud, block, Gutenberg soundCloud, music player, mp3 player
-Requires at least: 6.5+
-Tested up to: 6.9 
+=== Player for SoundCloud – share your music without leaving your site ===
+Contributors: bplugins, abuhayat
+Tags: soundcloud, music player, mp3 player, gutenberg soundcloud, block
+Tested up to: 7.0
 Stable tag: 1.0.11
-Requires PHP: 7.1 
+Requires PHP: 7.1
+Requires at least: 6.5
+Donate link: https://www.buymeacoffee.com/abuhayat
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-SoundCloud is the new music network on the block that allows users to create, record and share sounds and music with family, friends and the world.
+Embed SoundCloud tracks, playlists, and profiles in WordPress with a customizable Gutenberg player block – colors, artwork, and more.
 
 == Description ==
-The SoundCloud Block plugin for WordPress allows you to easily embed SoundCloud audio tracks, playlists, and profiles directly into your website's content. With this plugin, you can showcase your own audio creations or share your favorite tracks with your audience.
 
-The plugin is a Gutenberg block, which means you can easily add it to your content using the Gutenberg editor. Simply add the block to your post or page, paste the URL of the SoundCloud track, playlist, or profile you want to embed, and the plugin will do the rest. You can customize the appearance of the embedded audio using the plugin's settings, including the player color, artwork display, and more.
+**Share your SoundCloud tracks and playlists right on your website – paste a URL and get a fully customizable player in seconds.**
 
-The SoundCloud Block plugin is designed to be user-friendly and straightforward, even for those with limited technical knowledge. You don't need to write any code or install any additional software to use it. Additionally, the plugin is fully responsive, ensuring that your embedded audio looks great and functions perfectly across all devices and screen sizes.
+[**Demos**](https://bblockswp.com/demo/sound-cloud/)
 
-With the SoundCloud Block plugin, you can take advantage of SoundCloud's vast library of audio content to enhance your website and engage your audience. Whether you're a musician, podcaster, or simply a music lover, this plugin is an essential tool for your WordPress site.
+### Why Player for SoundCloud?
 
-In conclusion, the SoundCloud Block plugin is an excellent choice for anyone looking to embed SoundCloud audio tracks, playlists, or profiles on their WordPress site quickly and easily. Download the plugin today and start sharing your audio content with the world!
+**Player for SoundCloud** lets you easily embed SoundCloud audio tracks, playlists, and profiles directly into your website's content. Showcase your own audio creations or share your favorite tracks with your audience – without sending visitors away from your site.
 
-**[Demos](https://bblockswp.com/demo/sound-cloud/)**
+The plugin is a Gutenberg block: add it to any post or page, paste the URL of the SoundCloud track, playlist, or profile you want to embed, and the plugin does the rest. Customize the player's appearance with settings for color, artwork display, visible elements, and more.
 
+It's designed to be user-friendly even for those with limited technical knowledge – no code, no extra software. And the player is fully responsive, so your embedded audio looks great and works perfectly on every device and screen size.
 
-= Features =
-- Shortcode Support: Place sliders anywhere on your site using shortcodes.
-- **Track**: Play SoundCloud single track as well as playlist.
-- **Options**: Change SoundCloud options such as AutoPlay, Single active, Visual Design, Teaser etc.
-- **Elements**: Show/Hide SoundCloud elements such as Buying button, Download Button, Comments, Artwork, PlayCount, user, related sharing button etc.
-- **Customize**: Customize the player with various styles, like color, border, border radius and shadow.
+### Free Features
 
+- **Tracks & Playlists:** Play a SoundCloud single track as well as full playlists.
+- **Player Options:** Change SoundCloud options such as AutoPlay, Single Active, Visual Design, Teaser, and more.
+- **Show/Hide Elements:** Toggle the buy button, download button, comments, artwork, play count, user, and sharing buttons.
+- **Style Customization:** Customize the player with color, border, border radius, and shadow options.
+- **Shortcode Support:** Place players anywhere on your site using shortcodes.
+- **Fully Responsive:** Looks great on desktop, tablet, and mobile.
 
-= How to use =
-- First install the SoundCloud Block plugin
-- Add the SoundCloud Block from the Block category called "Widgets" in Gutenberg editor.
-- You can change soundCloud settings from the right side settings sidebar.
-- Enjoy!
+### How to Use
 
-* For installation help click on Installation Tab
+1. Install and activate the **Player for SoundCloud** plugin.
+2. In the Gutenberg editor, add the **SoundCloud Block** from the "Widgets" block category.
+3. Paste the URL of the SoundCloud track, playlist, or profile you want to embed.
+4. Customize the player from the right-side settings sidebar.
+5. Publish – your SoundCloud player is live!
 
+### Use Cases
 
-= Feedback =
-- Liked that plugin? Hate it? Want a new feature? [Send me some feedback](mailto:support@bplugins.com 'Send feedback')
+- **Musicians & Producers:** Showcase your latest tracks and albums on your own site.
+- **Podcasters:** Embed episodes hosted on SoundCloud into posts and pages.
+- **Music Bloggers:** Share favorite tracks and playlists with your readers.
+- **Labels & Studios:** Present artist profiles and releases in a branded player.
 
+Liked this plugin? Want a new feature? [Send us some feedback](mailto:support@bplugins.com 'Send feedback').
 
-= ⭐ Check out the Parent Plugin of this plugin- =
+### ⭐ Check out the Parent Plugin of this plugin-
 
 🔥 **[b Blocks](https://bblockswp.com/)** – Best gutenberg blocks collections for WordPress.
 
-
-= ⭐ Check out our other WordPress Plugins- =
+### ⭐ Check out our other WordPress Plugins-
 
 🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player)** – Best audio player plugin for WordPress.
 
@@ -63,51 +67,55 @@ In conclusion, the SoundCloud Block plugin is an excellent choice for anyone loo
 
 🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer)** – Display interactive 3D models on the webs.
 
-
 == Installation ==
 
-= From Gutenberg Editor: =
-1. Go to the WordPress SoundCloud/Gutenberg Editor
-2. Search For **SoundCloud Block**
-3. Click on the **SoundCloud Block** to add the soundCloud
+**From your WordPress dashboard (recommended):**
 
-= Download & Upload: =
-1. Download the **SoundCloud Block ** plugin (*.zip file*)
-2. In your admin area, go to the Plugins menu and click on **Add New**
-3. Click on **Upload Plugin** and choose the **`soundCloud-directory.zip`** file and click on **Install Now**
-4. Activate the plugin and Enjoy!
+1. Go to **Plugins → Add New**.
+2. Search for **"Player for SoundCloud"**.
+3. Click **Install Now**, then **Activate**.
+4. Add the **SoundCloud Block** to any post or page in the Gutenberg editor.
 
-= Manually: =
-1. Download and upload the **SoundCloud Block ** plugin to the **`/wp-content/plugins/`** directory
-2. Activate the plugin through the Plugins menu in WordPress
+**Manual installation:**
 
+1. Download the plugin (*.zip file*).
+2. In your admin area, go to **Plugins → Add New** and click **Upload Plugin**.
+3. Choose the plugin zip file and click **Install Now**.
+4. Activate the plugin through the **Plugins** menu in WordPress.
 
 == Frequently Asked Questions ==
 
-= Is SoundCloud Block free? =
+= Is Player for SoundCloud free? =
 
-Yes, SoundCloud Block is a free Gutenberg Block plugin.
+Yes, it is a free Gutenberg block plugin.
 
 = Does it work with any WordPress theme? =
 
 Yes, it will work with any standard WordPress theme.
 
-= Can I change soundCloud settings? =
+= Can I embed playlists and profiles, or only single tracks? =
 
-Yes, you can change soundCloud settings from the Gutenberg soundCloud editor's right sidebar.
+You can embed SoundCloud single tracks, full playlists, and profiles – just paste the URL into the block.
 
-= How many times can I reuse a soundCloud? =
+= Can I customize the player's appearance? =
 
-You can use unlimited times as you want.
+Yes. You can change the player color, border, border radius, and shadow, and show or hide elements like the buy button, download button, comments, artwork, play count, and sharing buttons.
+
+= Can I change the block settings? =
+
+Yes, you can change the settings from the Gutenberg editor's right sidebar.
+
+= How many times can I reuse the block? =
+
+You can use the block an unlimited number of times.
 
 = Where can I get support? =
 
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/soundCloud/)
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/soundCloud/).
 
 = Where do I report security bugs found in this plugin? =
 
 Please report security bugs found in the source code of the SoundCloud block - Fully Customizable SoundCloud Player plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/9e5fbc25-3898-4b99-aee7-2005335a9b46). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
-
 
 == Screenshots ==
 
